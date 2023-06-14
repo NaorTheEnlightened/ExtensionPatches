@@ -1,0 +1,143 @@
+.optisearchbox .optichat .optiheader {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: flex;
+}
+
+.optisearchbox .optichat .title {
+  font-size: 1.3em;
+}
+
+.optisearchbox .chatgpt-button {
+  padding: 0.5em;
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  transition: 0.3s;
+}
+
+.optisearchbox .chatgpt-button {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.optisearchbox .optichat .optifoot a.source {
+  position: relative;
+  white-space: nowrap;
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin: 2px 1px;
+  line-height: 1.8em;
+}
+.optisearchbox .optichat a.source.superscript {
+  font-size: smaller;
+  bottom: 0.5em;
+  padding: 1px 4px;
+  position: relative;
+  border-radius: 3px;
+}
+.optisearchbox .chat-title {
+  bottom: 10px;
+  position: relative;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.optisearchbox a.chat-title {
+  color: inherit !important;
+}
+
+.optisearchbox .chat-title:hover {
+  text-decoration: underline;
+}
+
+.optisearchbox .chat-info {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.optisearchbox .ai-name {
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.learnmore > a[invisible="0"] {
+  display: none;
+}
+.learnmore > .showmore {
+  cursor: pointer;
+}
+.learnmore.less > a[more] {
+  display: none;
+}
+
+.continue-chat-button {
+  padding: 5px 10px;
+  right: 1.8em;
+  position: relative;
+  color: #fff !important;
+  border-radius: 42px;
+  background: linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%);
+  cursor: pointer;
+  line-height: 1em;
+  white-space: nowrap;
+  height: fit-content;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.continue-chat-button[visible="true"] {
+  opacity: 1;
+}
+.continue-chat-button:hover {
+  text-decoration: none !important;
+}
+.continue-chat-button > span {
+  position: relative;
+  bottom: 4px;
+}
+
+/* COLOR THEMES */
+
+.bright.optisearchbox .chatgpt-button {
+  color: #222222;
+  border-color: #dcdcdc;
+  background: #f7f7f7;
+}
+
+.dark.optisearchbox .chatgpt-button {
+  color: #dcdcdc;
+  border-color: #222222;
+  background-color: #3b3b3b;
+}
+
+.bright.optisearchbox .chatgpt-button:active {
+  border-color: #bbc0c4;
+}
+
+.dark.optisearchbox .chatgpt-button:active {
+  border-color: #979797;
+}
+
+.bright.optisearchbox .chatgpt-button:hover {
+  color: black;
+}
+
+.dark.optisearchbox .chatgpt-button:hover {
+  color: white;
+}
+
+.bright.optisearchbox .optichat a.source {
+  color: #123bb6;
+  background-color: #d1dbfa;
+}
+.dark.optisearchbox .optichat a.source {
+  background-color: #293740;
+}
